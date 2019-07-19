@@ -1,116 +1,22 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en-US">   
 <head>
-        <title>Welcome | Orionis</title>
-
+        <title>Orionis</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <link rel="stylesheet" href="css/snake.css">
-        <link rel="stylesheet" href="css/orionis.css">
-        <link rel="stylesheet" href="css/background.css">
-        <link rel="stylesheet" href="css/capslock.css">
-        <link rel="stylesheet" href="css/popup.css">
-        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-
+        <link rel="stylesheet" href="index.css">
 </head>
 <body>
-
-    <script src='js/anime.js'></script>
-    <script src='js/jquery.min.js'></script>
-    <script src='js/bootstrap.min.js'></script>
-
     <div class="page">
-    <div class="container">
-      <div class="left">
-
-        <div class="animate orionis">
-          <uppercase><span>O</span><span>r</span><span>i</span><span>o</span><span>n</span><span>i</span><span>s</span></uppercase>
-      </div>
-
-      <div id="caps" style="display:none">
-          <span class="reversed reversedRight">
-            <span>
-              <b>&#9888;</b>
-            </span>
-          </span>
-          <span class="reversed reversedLeft">
-            Caps Lock is on!
-          </span> 
-        </div>
-
-        <div class="register">Not registered yet? <a href="#" class="open-button" onclick="openForm()">Sign up now!</a>
-          </div>
-
-          <div class="nice-popup" id="myForm" style="display:none">
-              <form action="" class="nice-epic">
-                <h1>SIGN UP</h1>
-            
-                <label for="email_create">Email</label>
-                <input type="text" name="email_create" autocomplete="on" required>
-            
-                <label for="psw">Password</label>
-                <input type="password" name="psw" autocomplete="off" required>
-
-                <label for="re_psw">Confirm Password</label>
-                <input type="password" name="re_psw" autocomplete="off" required>
-            
-                <button type="submit" id="btn" class="btn">Login</button>
-                <br></br><br></br>
-                <button type="button" class="btn cancel" onclick="closeForm()">Cancel</button>
-              </form>
-            </div>
-          </div>
-          
-
-      <div class="right">
-        <svg viewBox="0 0 320 300">
-          <defs>
-            <linearGradient
-                            inkscape:collect="always"
-                            id="linearGradient"
-                            x1="13"
-                            y1="193.49992"
-                            x2="307"
-                            y2="193.49992"
-                            gradientUnits="userSpaceOnUse">
-              <stop
-                    style="stop-color:#ffb300;"
-                    offset="0"
-                    id="stop876" />
-              <stop
-                    style="stop-color:#ffffff;"
-                    offset="1"
-                    id="stop878" />
-            </linearGradient>
-          </defs>
-          <path d="m 40,120.00016 239.99984,-3.2e-4 c 0,0 24.99263,0.79932 25.00016,35.00016 0.008,34.20084 -25.00016,35 -25.00016,35 h -239.99984 c 0,-0.0205 -25,4.01348 -25,38.5 0,34.48652 25,38.5 25,38.5 h 215 c 0,0 20,-0.99604 20,-25 0,-24.00396 -20,-25 -20,-25 h -190 c 0,0 -20,1.71033 -20,25 0,24.00396 20,25 20,25 h 168.57143" />
-        </svg>
-        <div class="form">
-          <label for="email">Email</label>
-          <input type="email" id="email" autocomplete="off">
-          <label for="password">Password</label>
-          <input type="password" id="password" autocomplete="off" onkeyup="checkCapsWarning(event)" onfocus="checkCapsWarning(event)" onblur="removeCapsWarning()">
-          <button type="submit" id="submit" onclick="setTimeout(buttonTimer, 500)">Login</button>
-        </div>
-      </div>
+        <div class="welcome">Welcome to Orionis</div>
+        <div class="border1"></div>
+        <div class="window"></div>
+        <div class="border2"></div>
     </div>
-  </div>
-
-
-  <script src="js/login_animation.js"></script> 
-  <script src="js/button_timer.js"></script>
-  <script src="js/page_design.js"></script>
-  <script src="js/capslock.js"></script>
-  <script src="js/popup.js"></script>
-
 </body>
-
-  <footer>
-  <div class="copyright">
-  <p>2019 © Orionis, All Rights Reserved</p>
-</div>
-  </footer> 
-
+<footer>
+    <div class="copyright">
+        <p>2019 © Orionis, All Rights Reserved</p>
+    </div>
+</footer> 
 </html>
-  
