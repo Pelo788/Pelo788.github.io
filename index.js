@@ -1,3 +1,4 @@
+// Date //
 var d=new Date, month=new Array;
 month[0]="January", 
 month[1]="February", 
