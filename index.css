@@ -9,7 +9,7 @@ body {
 }
 .page {
     position: relative;
-    background: #E2E2E5;
+    background: #C3C6CB;
     width: 1850px;
     height: 875px;
     top: 27.5px;
@@ -139,6 +139,30 @@ footer {
     width: 100%;
 }
 .copyright {
-    text-align: center;
+    position: absolute;
+    border-radius: 1px;
+    top: 755px;
+    width: 1850px;
+    height: 20px;
+    left: -1471px;
     font-family: 'Helvetica';
+    font-size: 15px;
+    background-color: #55B6AE;
+    -moz-box-shadow:    inset 0 0 5px #000000;
+    -webkit-box-shadow: inset 0 0 5px #000000;
+    box-shadow:         inset 0 0 5px #000000;
+}
+a {
+    padding: 5px;
+}
+a:hover {
+    text-decoration: underline;
+    font-size: 16px;
+    color: #0000FF;
+  }
+p {
+    position: relative;
+    top: -30px;
+    text-align: right;
+
 }
