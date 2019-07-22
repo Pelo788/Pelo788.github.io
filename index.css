@@ -138,13 +138,12 @@ footer {
     left: 0;
     width: 100%;
 }
-.copyright {
+.important {
     position: absolute;
     border-radius: 1px;
-    top: 755px;
+    top: 856px;
     width: 1850px;
     height: 20px;
-    left: -1471px;
     font-family: 'Helvetica';
     font-size: 15px;
     background-color: #55B6AE;
@@ -157,12 +156,12 @@ a {
 }
 a:hover {
     text-decoration: underline;
-    font-size: 16px;
     color: #0000FF;
-  }
-p {
-    position: relative;
-    top: -30px;
-    text-align: right;
-
+}
+.copyright {
+    position: absolute;
+    font-family: 'Helvetica';
+    font-size: 15px;
+    top: 858px;
+    left: 1615px;
 }
