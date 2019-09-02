@@ -1,5 +1,4 @@
 @import url('font/helvetica.css');
-@import url('font/digital-7.css');
 body {
     background:  fixed top center no-repeat;
     background-image: url("background.jpg");
@@ -41,7 +40,6 @@ body {
     width: 300px;
     height: 650px;
     left: 2%;
-    border: 0px solid #FFFFFF;
     background-color: #55B6AE;
     padding: 20px 20px;
     box-shadow: 0 8px 6px -6px #000000;
@@ -89,7 +87,6 @@ body {
     width: 300px;
     height: 650px;
     left: 79.5%;
-    border: 0px solid #FFFFFF;
     background-color: #55B6AE;
     padding: 20px 20px;
     box-shadow: 0 8px 6px -6px #000000;
@@ -117,6 +114,82 @@ body {
     box-shadow: 0 8px 6px -6px #000000;
     -webkit-box-shadow: 0 8px 6px -6px #000000;
     -moz-box-shadow: 0 8px 6px -6px #000000;
+}
+#email_label{
+    position: relative;
+    font-family: 'Helvetica';
+    left: 14.3%;
+    display: block;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #111;
+}
+#pass_label{
+    position: relative;
+    font-family: 'Helvetica';
+    left: 14.3%;
+    display: block;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;
+}
+#email {
+    position: relative;
+    font-family: 'Helvetica';
+    left: 14.3%;
+    padding: 3px 7px;
+    min-width:300px;
+    background-color: #C3C6CB;
+    color: #000000;
+    font-size: 16px;
+    line-height: 23px;
+    box-shadow: 0 6px 6px -6px #000000;
+    -webkit-box-shadow: 0 6px 6px -6px #000000;
+    -moz-box-shadow: 0 6px 6px -6px #000000
+}
+#pass {    
+    position: relative;
+    left: 14.3%;
+    padding: 3px 7px;
+    min-width:300px;
+    background-color: #C3C6CB;
+    color: #000000;
+    font-size: 16px;
+    line-height: 23px;
+    box-shadow: 0 6px 6px -6px #000000;
+    -webkit-box-shadow: 0 6px 6px -6px #000000;
+    -moz-box-shadow: 0 6px 6px -6px #000000
+}
+.button {
+    position: relative;
+    font-family: 'Helvetica';
+    font-size: 17px;
+    font-weight: 700;
+    top: 10%;
+    left: 33.5%;
+    background-color: #C3C6CB;
+    padding: 6px 50px;
+    color: #000000;
+    box-shadow: 0 6px 6px -6px #000000;
+    -webkit-box-shadow: 0 6px 6px -6px #000000;
+    -moz-box-shadow: 0 6px 6px -6px #000000
+}
+.error {
+    position: absolute;
+    border-radius: 1px;
+    top: 72%;
+    width: 392px;
+    height: 30px;
+    left: 2%;
+    background-color: #C3C6CB;
+    padding: 20px 20px;
+    box-shadow: 0 6px 6px -6px #000000;
+    -webkit-box-shadow: 0 6px 6px -6px #000000;
+    -moz-box-shadow: 0 6px 6px -6px #000000;
 }
 .border2 {
     position: relative;
