@@ -14,7 +14,7 @@ body {
     top: 27.5px;
     margin: auto;
 }  
-.date_window {
+.date_window { 
     position: relative;
     height: 50px;
     width: 300px;
