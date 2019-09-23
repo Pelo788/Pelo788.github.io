@@ -93,6 +93,108 @@ body {
     -webkit-box-shadow: 0 8px 6px -6px #000000;
     -moz-box-shadow: 0 8px 6px -6px #000000;
 }
+#newemail_label{
+    position: relative;
+    font-family: 'Helvetica';
+    left: 10%;
+    display: block;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #111;
+}
+#newpass_label{
+    position: relative;
+    font-family: 'Helvetica';
+    left: 10%;
+    display: block;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;
+}
+#repeatpass_label{
+    position: relative;
+    font-family: 'Helvetica';
+    left: 10%;
+    display: block;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;
+}
+#newemail {
+    position: relative;
+    font-family: 'Helvetica';
+    left: 10%;
+    padding: 3px 5px;
+    min-width:230px;
+    background-color: #C3C6CB;
+    color: #000000;
+    font-size: 15px;
+    line-height: 20px;
+    box-shadow: 0 6px 6px -6px #000000;
+    -webkit-box-shadow: 0 6px 6px -6px #000000;
+    -moz-box-shadow: 0 6px 6px -6px #000000
+}
+#newpass {
+    position: relative;
+    font-family: 'Helvetica';
+    left: 10%;
+    padding: 3px 5px;
+    min-width:230px;
+    background-color: #C3C6CB;
+    color: #000000;
+    font-size: 16px;
+    line-height: 20px;
+    box-shadow: 0 6px 6px -6px #000000;
+    -webkit-box-shadow: 0 6px 6px -6px #000000;
+    -moz-box-shadow: 0 6px 6px -6px #000000
+}
+#repeatpass {
+    position: relative;
+    font-family: 'Helvetica';
+    left: 10%;
+    padding: 3px 5px;
+    min-width:230px;
+    background-color: #C3C6CB;
+    color: #000000;
+    font-size: 16px;
+    line-height: 20px;
+    box-shadow: 0 6px 6px -6px #000000;
+    -webkit-box-shadow: 0 6px 6px -6px #000000;
+    -moz-box-shadow: 0 6px 6px -6px #000000
+}
+.button1 {
+    position: relative;
+    font-family: 'Helvetica';
+    font-size: 17px;
+    font-weight: 700;
+    top: 10%;
+    left: 23%;
+    background-color: #C3C6CB;
+    padding: 6px 50px;
+    color: #000000;
+    box-shadow: 0 6px 6px -6px #000000;
+    -webkit-box-shadow: 0 6px 6px -6px #000000;
+    -moz-box-shadow: 0 6px 6px -6px #000000
+}
+.newerror {
+    position: absolute;
+    border-radius: 1px;
+    top: 68%;
+    width: 285px;
+    height: 25px;
+    left: 2%;
+    background-color: #C3C6CB;
+    padding: 20px 20px;
+    box-shadow: 0 6px 6px -6px #000000;
+    -webkit-box-shadow: 0 6px 6px -6px #000000;
+    -moz-box-shadow: 0 6px 6px -6px #000000;
+}
 .border1 {
     position: relative;
     top: 15%;
@@ -164,7 +266,7 @@ body {
     -webkit-box-shadow: 0 6px 6px -6px #000000;
     -moz-box-shadow: 0 6px 6px -6px #000000
 }
-.button {
+.button2 {
     position: relative;
     font-family: 'Helvetica';
     font-size: 17px;
