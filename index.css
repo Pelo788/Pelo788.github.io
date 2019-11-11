@@ -93,6 +93,12 @@ body {
     -webkit-box-shadow: 0 8px 6px -6px #000000;
     -moz-box-shadow: 0 8px 6px -6px #000000;
 }
+.whatis {
+    vertical-align: top;
+    word-wrap: break-word;
+    font-family: 'Helvetica';
+    font-size: 23px;   
+}
 #newemail_label{
     position: relative;
     font-family: 'Helvetica';
@@ -185,7 +191,7 @@ body {
 .newerror {
     position: absolute;
     border-radius: 1px;
-    top: 68%;
+    top: 85%;
     width: 285px;
     height: 25px;
     left: 2%;

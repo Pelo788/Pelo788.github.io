@@ -1,0 +1,33 @@
+@import url('font/helvetica.css');
+body {
+    background:  fixed top center no-repeat;
+    background-image: url("background.jpg");
+    background-repeat: repeat;
+    background-color: #000000;
+    margin: auto;
+}
+.page {
+    position: relative;
+    background: #C3C6CB;
+    width: 1200px;
+    height: 800px; 
+    top: 27.5px;
+    margin: auto;
+}
+.titlewindow {
+    position: relative;
+    height: 50px;
+    width: 1200px;
+    border-radius: 1px;
+    background-color: #55B6AE;
+    -moz-box-shadow:    inset 0 0 5px #000000;
+    -webkit-box-shadow: inset 0 0 5px #000000;
+    box-shadow:         inset 0 0 5px #000000;
+}
+.title {
+    vertical-align: top;
+    word-wrap: break-word;
+    font-family: 'Helvetica';
+    font-size: 35px;
+    text-align: center;
+} 
